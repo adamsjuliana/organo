@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.rodape{
+    background-color: #6278F7;
+    width: 100%;
+    height: 213px;
+    background-image: url('/public/imagens/fundo.png');
+    background-size: cover;
+}
+.rodape li{
+    display: inline-block;
+    color: #FFF;
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+}
+.rodape .social{
+    margin: 0 35px;
+}
+.rodape ul{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
